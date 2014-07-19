@@ -1,7 +1,7 @@
 ENV['RACK_ENV'] = 'test'
 require 'minitest/autorun'
 require 'rack/test'
-require_relative 'customer.rb'
+require_relative 'service.rb'
 
 include Rack::Test::Methods
 
