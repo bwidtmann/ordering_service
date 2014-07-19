@@ -1,7 +1,7 @@
 development:
   sessions:
     default:
-      database: ordering_service_test
+      database: ordering_service_development
       hosts:
         - localhost:27017
 test:
@@ -9,7 +9,9 @@ test:
     default:
       database: ordering_service_test
       hosts:
-        - localhost:27017
+        - kahana.mongohq.com:10007
+      username: admin
+      password: admin
 production:
   sessions:
     default:
