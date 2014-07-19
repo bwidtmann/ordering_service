@@ -1,2 +1,6 @@
 language: ruby
 rvm: 1.9.3
+deploy:
+  provider: heroku
+  api_key: abf75f6a-f138-4537-895d-d4c50d737f85
+  app: nameless-scrubland-1776
