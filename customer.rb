@@ -1,11 +1,3 @@
-require 'sinatra'
-require 'json'
-require 'mongoid'
-
-configure do
-  Mongoid.load!('./mongoid.yml')
-end
-
 class Customer
   include Mongoid::Document
 end
