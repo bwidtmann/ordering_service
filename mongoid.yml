@@ -9,9 +9,7 @@ test:
     default:
       database: ordering_service_test
       hosts:
-        - kahana.mongohq.com:10007
-      username: admin
-      password: admin
+        - localhost:27017
 production:
   sessions:
     default:
