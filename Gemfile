@@ -5,9 +5,9 @@ gem "json"
 gem "mongoid"
 gem "bunny"
 gem "thin"
+gem "heroku-api"
 
 group :test do
   gem "rack-test"
   gem "rake"
-  gem "heroku-api"
 end
